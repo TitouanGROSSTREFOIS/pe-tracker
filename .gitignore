@@ -1,0 +1,31 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+
+# Secrets — never commit real keys (see RUNBOOK.md)
+api/.env
+backend/.env
+pe-market-intelligence-terminal/.env.local
+
+# Build output
+pe-market-intelligence-terminal/dist/
+backend/dist/
+
+# Local database (dev SQLite) — never publish real sourced deal data
+pe_intelligence.db
+
+# Runtime cache (auto-recreated on first request)
+cache/
+
+# Internal AI-agent onboarding notes — not written for external readers
+AI_MASTER_CONTEXT.md
+
+# OS
+.DS_Store
+
+# Editors
+.vscode/

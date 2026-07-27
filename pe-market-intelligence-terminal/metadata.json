@@ -1,0 +1,5 @@
+{
+  "name": "PE Market Intelligence Terminal",
+  "description": "A high-density, Bloomberg-style market intelligence dashboard for Private Equity professionals, featuring deal tracking, fund benchmarking, and sector heatmaps.",
+  "requestFramePermissions": []
+}
